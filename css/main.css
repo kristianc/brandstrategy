@@ -77,8 +77,8 @@ background-image: url("../img/bg.jpg");
 }
 
 .hero-button {
-  background: rgba(255, 255, 255, 0.8);
-  color: #44575b;
+  background: #2e2e2e;
+  color: #f8f8f8;
   font-size: 3vw;
   float: left;
   text-transform: uppercase;
