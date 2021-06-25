@@ -68,9 +68,12 @@ footer {
   font-size: 11px;
   text-align: center;
   padding: 10px 0px;
-  z-index: 1;
+  z-index: 3;
 }
 footer a {color: white !important}
+footer span {margin-left: 10px; margin-right: 10px;}
+
+footer a {margin-left: 3px; margin-right: 3px;}
 
 
 .hero-container {
@@ -153,7 +156,7 @@ margin-top: 20px;
 }
 .service-list {border-top: solid 1px #ccc; margin-left: -5px; max-width:  400px;}
 .service-list li {list-style-type: none; font-family: "Playfair Display", serif; padding: 10px 10px; margin-left: -35px; border-bottom: #ddd solid 1px;}
-.service-list li:hover {background: #2e2e2e; 
+.service-list li:hover {background: #111; 
   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
   transition-duration: 0.5s;}
 
@@ -169,12 +172,13 @@ margin-top: 20px;
   .hero-button {font-size: 21px;}
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 2000px) {
 
 body, ul, li, h1, h2, .sub, footer, .hero-title {text-align: center; display: block; margin-left: 0px; margin-right: 0px; }
 .sub, footer {width:100%}
 .hero-container {margin-left:  auto; margin-right: auto;     margin: 0 auto;
     width: 100%;}
+    .service-list{margin: 0 auto;}
 }
 
 
