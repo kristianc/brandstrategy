@@ -80,13 +80,18 @@ background-image: url("../img/bg.jpg");
 .hero-button {
   background: #2e2e2e;
   color: #f8f8f8;
-  font-size: 3vw;
-  float: left;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 30px;
-  padding: 2vw 13vw;
-  text-decoration: none;
+display:inline-block;
+padding: 1em 5em;
+margin-top: 20px;
+    border-radius: 0.15em;
+    box-sizing: border-box;
+      font-family: "Roboto Condensed", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    box-shadow: inset 0 -0.6em 0 -0.35em rgb(0 0 0 / 17%);
+    text-align: center;
+    position: relative;
 }
 
 .hero a:active, .hero a:hover;{color: #f8f8f8 !important;}
