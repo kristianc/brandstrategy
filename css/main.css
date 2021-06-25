@@ -162,7 +162,18 @@ margin-top: 20px;
 
 .hero-button:hover, .hero-button:active {color:#f8f8f8 !important; background:#1e1e1e;  }
 
-
+@media screen and (max-width: 500px) {
+.hero-container {
+  box-sizing: border-box;
+  height: auto;
+  padding: 30px 50px;
+  position: fixed;
+  top: 20%;
+  z-index: 2;
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+  transition-duration: 1.2s;
+}
+}
 
 @media screen and (min-width: 640px) {
   .hero-title {
