@@ -23,6 +23,7 @@ background-image: url("../img/bg.jpg");
   min-height: 1000px;
 }
 
+
 .hero {
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -88,7 +89,7 @@ background-image: url("../img/bg.jpg");
   text-decoration: none;
 }
 
-.hero-button:active {  color: #f8f8f8;}
+.hero a:active, .hero a:hover;{color: #f8f8f8 !important;}
 
 .hero-title {
   color: white;
@@ -101,6 +102,11 @@ background-image: url("../img/bg.jpg");
   text-align: left;
   width: 85%;
 }
+
+a:hover, a: active; {color: #f8f8f8 !important}
+
+
+
 @media screen and (min-width: 640px) {
   .hero-title {
     font-size: 10vw;
