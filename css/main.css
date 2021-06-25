@@ -64,10 +64,10 @@ footer {
   bottom: 0px;
   width: 100%;
   background-color: #000;
-  color: #666 !important;
+  color: #efefef !important;
   font-size: 11px;
   text-align: center;
-  padding: 5px;
+  padding: 10px 0px;
   z-index: 1;
 }
 
