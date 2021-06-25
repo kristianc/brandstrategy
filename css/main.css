@@ -171,6 +171,14 @@ margin-top: 20px;
   .hero-button {font-size: 21px;}
 }
 
+@media screen and (max-width: 500px) {
+
+body, ul, li, h1, h2, .sub, footer {text-align: center; display: block; margin-left: 0px; margin-right: 0px; }
+.sub, footer {width:100%}
+}
+
+
+
 .main-content {
   height: auto;
   padding: 30px 50px;
