@@ -103,7 +103,7 @@ background-image: url("../img/bg.jpg");
   width: 85%;
 }
 
-a:hover, a:active {color:#f8f8f8 !important}
+.hero-button:hover, .hero-button:active {color:#f8f8f8 !important; background:#1e1e1e;  }
 
 
 
