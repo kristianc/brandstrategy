@@ -88,6 +88,8 @@ background-image: url("../img/bg.jpg");
   text-decoration: none;
 }
 
+.hero-button:active {  color: #f8f8f8;}
+
 .hero-title {
   color: white;
   font-family: "Playfair Display", serif;
