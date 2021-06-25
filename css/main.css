@@ -122,21 +122,26 @@ margin-top: 20px;
     overflow: auto;
     top: 0px;
     left: 0px;
-    background: rgba(0, 0, 0, 0.7); /*can be anything, of course*/
+    background: rgba(0, 0, 0, 0.5); /*can be anything, of course*/
 }
 
 .sub {
   color: white;
   font-family: "Playfair Display", serif;
-  font-size: 4vw;
+  font-size: 30px;
   font-weight: 500;
   letter-spacing: 1px;
   line-height: 1.1;
-  margin: 50px 0;
+  margin-top: 50px;
+  margin-bottom: 15px;
   text-align: left;
   width: 85%;
 }
-
+.service-list {border-top: solid 1px #ccc; margin-left: -5px; max-width:  400px;}
+.service-list li {list-style-type: none; font-family: "Playfair Display", serif; padding: 10px 10px; margin-left: -35px; border-bottom: #ddd solid 1px;}
+.service-list li:hover {background: #2e2e2e; 
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+  transition-duration: 0.5s;}
 
 .hero-button:hover, .hero-button:active {color:#f8f8f8 !important; background:#1e1e1e;  }
 
