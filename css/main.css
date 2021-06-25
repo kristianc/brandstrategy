@@ -20,6 +20,7 @@ background-image: url('https://images.unsplash.com/photo-1443890923422-7819ed410
   background-repeat: no-repeat;
   background-attachment: fixed !important;
   background-position: center !important;
+  max-height: 100%;
 }
 
 .main-content {
