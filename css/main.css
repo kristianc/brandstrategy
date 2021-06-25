@@ -126,8 +126,7 @@ margin-top: 20px;
   letter-spacing: 1px;
   line-height: 1.1;
   margin: 5px 0;
-  text-align: left;
-  width: 85%;
+  width: 100%;
 }
 
 .overlay {
@@ -150,7 +149,6 @@ margin-top: 20px;
   line-height: 1.1;
   margin-top: 50px;
   margin-bottom: 15px;
-  text-align: left;
   width: 85%;
 }
 .service-list {border-top: solid 1px #ccc; margin-left: -5px; max-width:  400px;}
@@ -173,8 +171,10 @@ margin-top: 20px;
 
 @media screen and (max-width: 500px) {
 
-body, ul, li, h1, h2, .sub, footer {text-align: center; display: block; margin-left: 0px; margin-right: 0px; }
+body, ul, li, h1, h2, .sub, footer, .hero-title {text-align: center; display: block; margin-left: 0px; margin-right: 0px; }
 .sub, footer {width:100%}
+.hero-container {margin-left:  auto; margin-right: auto;     margin: 0 auto;
+    width: 100%;}
 }
 
 
